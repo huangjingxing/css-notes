@@ -62,8 +62,10 @@ CSS2.1的层叠规则：
 权重、来源和特殊性完全相同，按顺序排序。
 建议伪类顺序：link-visited-hover-active（LVHA）
 通过将伪类链接在一起，能缓解特殊性和顺序带来的问题，如：
+```
 :link:hover:active{color:orange;}
 :visited:hover:active{color:silver;}
+```
 
 非CSS表现提示
 例如font元素。非CSS提示被处理为特殊性为0，并出现在创作人员样式表的最前面。
